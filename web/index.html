@@ -3,19 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <title>MyWeb</title>
+    <style>
+        .pointer { cursor: pointer; }
+    </style>
 </head>
 <body>
 
 <form action="ClickServlet" method="get">
     GET
     <input type="text" name="value">
-    <input type="submit" value="Ok">
+    <input class="pointer" type="submit" value="Ok">
 </form>
 
 <form action="ClickServlet" method="POST">
     POST
     <input type="text" name="value">
-    <input type="submit" value="Ok">
+    <input class="pointer" type="submit" value="Ok">
 </form>
 
 </body>
